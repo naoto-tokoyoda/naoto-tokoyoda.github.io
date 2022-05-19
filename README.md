@@ -3,5 +3,5 @@
 
 
 
-## This is my portfolio based on web design I created in school. I will update when I found new, and interesting things here!
+## This is my portfolio based on web design I created in school. I will mainly post about what I learned and what I feel on https://dev.to/ntkyd
 
