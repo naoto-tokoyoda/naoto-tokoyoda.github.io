@@ -20,9 +20,14 @@
 
 .project_image h5{
     margin-top:10px;
-
+    
     display:flex;
     justify-content: flex-end;
+}
+
+.project_image h5 a{
+    text-decoration: none;
+    color:black;
 }
 
 .project_explanations{

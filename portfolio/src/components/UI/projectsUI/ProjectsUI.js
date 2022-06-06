@@ -16,7 +16,7 @@ function ProjectsUI() {
 
                 <div className={classes.project_image}>
                     <img src={ProjectImage1} alt="ProjectImage1" />
-                    <h5><a href="">Repo</a></h5>
+                    <h5><a href="/">Repo</a></h5>
                 </div>
 
                 <div className={classes.project_explanations}>
@@ -42,7 +42,7 @@ function ProjectsUI() {
 
                 <div className={classes.project_image}>
                     <img src={ProjectImage2} alt="ProjectImage2" />
-                    <h5><a href="">Repo</a></h5>
+                    <h5><a href="/">Repo</a></h5>
                 </div>
 
                 <div className={classes.project_explanations}>
@@ -68,7 +68,7 @@ function ProjectsUI() {
 
                 <div className={classes.project_image}>
                     <img src={ProjectImage3} alt="ProjectImage3" />
-                    <h5><a href="">Repo</a></h5>
+                    <h5><a href="/">Repo</a></h5>
                 </div>
 
                 <div className={classes.project_explanations}>

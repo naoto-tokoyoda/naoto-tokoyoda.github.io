@@ -21,7 +21,7 @@ function Contact() {
             <div className={classes.email_me_container}>
                 <div className={classes.email_me}>
                     <h5>Email me</h5>
-                    <div className={classes.email_button}>
+                    <div className={classes.email_button} onClick={() =>  navigator.clipboard.writeText('tokoyoda.naoto@gmail.com')}>
                         <input 
                             type="text" 
                             name="name" 
