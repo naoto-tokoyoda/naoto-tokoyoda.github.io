@@ -1,0 +1,73 @@
+.projectsUI{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin:30px;
+    padding:30px;
+    
+}
+
+.project{
+    display:flex;
+    justify-content: space-between;
+}
+
+.project_image{
+    width:auto;
+    height:auto;
+}
+
+.project_image h5{
+    margin-top:10px;
+
+    display:flex;
+    justify-content: flex-end;
+}
+
+.project_explanations{
+    width:70%;
+    height:auto;
+}
+
+.project_explanation h1{
+    font-size: 22px;
+    margin-bottom:20px;
+}
+
+.project_explanation p{
+    font-size: 16px;
+    line-height:25px;
+}
+
+.icons_container{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:20px;
+}
+.icons ul{
+    display:flex;
+}
+
+.icons ul li{
+    margin:0px 15px;
+}
+
+.icons ul li:nth-last-child(2)::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  .icons ul li:nth-last-child(1)::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: blue; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+

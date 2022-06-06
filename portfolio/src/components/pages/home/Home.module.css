@@ -1,21 +1,128 @@
 .home{
     width:100%;
     height:100vh;
-    background-color: hotpink;
+    color: rgba(255, 255, 255, 1);
+    background: url("../../images/background_image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
 
 }
 
-.profile{
+.profile_wrapper{
+    width:auto;
+    height: 700px;;
     display:flex;
+    justify-content: center;
+    align-content:center;
+}
+.profile_intro_wrapper{
+    width:50%;
+    margin:auto 0;
 }
 
-.profile_intro_wrapper{
-    width:60%;
-    border:1px black solid;
+.profile_greet{
+    width:auto;
+}
+.profile_greet h3{
+    font-size:25px;
+} 
+
+.profile_greet h1{
+    display:inline-block;
+    font-size:50px;
+    margin:45px 0px;
+    padding:0px 0px 30px 0px;
+    
+    box-shadow: 0px 4px 2px -2px rgba(255, 255, 255, 0.8);
+}
+
+.profile_introduction{
+    font-size: 25px;
+    line-height:35px;
 }
 
 .profile_image_wrapper{
-    width:40%;
-    border:1px black solid;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile_image{
+    width:50%;
+    height:auto;
+    border: 4px solid #FFFFFF;
+    border-radius: 100%;
+    filter: brightness(150%);
+}
+
+.angle_arrow_wrapper{
+    width:100%;
+    height:100px;
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angle_down{
+    width:35px;
+    height:auto;
+    filter: brightness(200%);
+}
+
+.icons_wrapper{
+    display:flex;
+    align-items: center;
+    margin-top:50px;
+}
+
+.icons_wrapper :nth-child(2){
+    margin-left:90px;
+}
+
+.icons_wrapper :nth-child(3){
+    margin-left:25px;
+}
+
+
+.icon_resume{
+    width:140px;
+    height:48px;
+    border-radius: 30px;
+
+}
+
+.icon_linkedIn_wrapper{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_linkedIn{
+    width:100px;
+    height:auto;
+}
+
+.icon_gitHub_wrapper{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_github{
+    width:100px;
+    height:auto;
+    
 }
 

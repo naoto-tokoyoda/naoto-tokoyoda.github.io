@@ -1,0 +1,26 @@
+.button {
+    font: inherit;
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: rgb(220, 220, 220);
+    
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  button:disabled,
+  button:focus:disabled,
+  button:hover:disabled,
+  button:active:disabled {
+    background: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
