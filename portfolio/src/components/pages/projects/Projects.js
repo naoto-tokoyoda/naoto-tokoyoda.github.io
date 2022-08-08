@@ -8,18 +8,23 @@ import classes from "./Projects.module.css"
 import Container from '../../UI/container/Container';
 import ProjectsUI from '../../UI/projectsUI/ProjectsUI';
 import Card from '../../UI/card/Card'
-
-
+import { useMatchMedia } from "../../useMatchMedia";
 
 function Projects() {
+  const isMobileScreen = useMatchMedia("(min-width:960px)", true);
+
+
   return (
-    <div className={classes.projects}>
+    <div className={classes.projects} id="projects">
         <div className={classes.projects_title}>
             <h1>Projects</h1>
         </div>
-        <Container className={classes.projects_container}>
+
+        {isMobileScreen 
+        ? <Container className={classes.projects_container} >
             <ProjectsUI />
-        </Container>
+          </Container>
+        : <ProjectsUI />}
         
     </div>
   )
