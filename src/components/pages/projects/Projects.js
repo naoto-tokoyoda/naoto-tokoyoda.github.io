@@ -25,6 +25,9 @@ function Projects() {
             <ProjectsUI />
           </Container>
         : <ProjectsUI />}
+        {/* <Container className={classes.projects_container} >
+            <ProjectsUI />
+          </Container> */}
         
     </div>
   )

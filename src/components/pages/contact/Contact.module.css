@@ -1,7 +1,7 @@
 .contact{
-    width:100%;
+    width:80%;
     height:auto;
-    margin-bottom:100px;
+    margin:0px auto 100px auto;
 }
 
 .contact_title{
@@ -122,6 +122,12 @@ border-radius: 10px;
 
     
 @media only screen and (max-width: 960px) {
+
+    .contact{
+        width:100%;
+        height:auto;
+        margin:0px auto 100px auto;
+    }
 
     .form_container{
         width:90%;

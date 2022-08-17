@@ -1,8 +1,7 @@
 .projects{
-    width:100%;
+    width:80%;
     height:auto;
-    margin-top:100px;
-    margin-bottom:100px;
+    margin:100px auto;
 }
 
 .projects_title{
@@ -34,3 +33,12 @@
     flex-flow: wrap; 
 }
 
+
+@media only screen and (max-width: 960px) {
+    .projects{
+        width:99%;
+        height:auto;
+        margin:100px auto;
+        
+    }
+}
