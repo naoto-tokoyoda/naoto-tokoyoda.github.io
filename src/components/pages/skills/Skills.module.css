@@ -35,15 +35,15 @@
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-    padding:30px;
-    
+    padding:40px ;    
     
 }
 
 .skill_card{
     width:90px;
     height:90px;
-    
+    box-sizing: border-box;
+    padding:50px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);

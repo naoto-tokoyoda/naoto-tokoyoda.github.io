@@ -20,7 +20,7 @@
   button:hover:disabled,
   button:active:disabled {
     background: #ccc;
-    color: #666666;
+    color: #FCFCFD;
     cursor: not-allowed;
   }
   

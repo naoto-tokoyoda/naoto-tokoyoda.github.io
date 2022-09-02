@@ -2,15 +2,18 @@
     width:100%;
     height:100vh;
     color: rgba(255, 255, 255, 1);
+    
+
     background-image: url("../../images/background_image.jpeg");
-    background-color:black;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     object-fit: contain;
-    
-
+    /* filter: opacity(0.9) drop-shadow(0 0 0 black); */
+    /* filter: brightness(80%); */
+    /* filter: contrast(50%); */
 }
+
 
 .profile_wrapper{
     width:100%;
@@ -20,6 +23,7 @@
     justify-content: center;
     align-content:center;
 }
+
 .profile_intro_wrapper{
     width:50%;
     margin:auto 0;
@@ -44,6 +48,7 @@
 .profile_introduction h3{
     font-size: 20px;
     line-height:35px;
+    text-shadow: 0.5px 1px black;
 }
 
 .profile_image_wrapper{
@@ -99,6 +104,7 @@
     width:140px;
     height:48px;
     border-radius: 30px;
+    border:none;
 
 }
 
@@ -116,12 +122,14 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    border:none;
     
 }
 
 .icon_linkedIn{
     width:100px;
     height:auto;
+    border:none;
 }
 
 .icon_gitHub_wrapper{
@@ -131,27 +139,29 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    border:none;
 }
 
 .icon_github{
     width:100px;
     height:auto;
     
+    
 }
 
 @media only screen and (max-width: 960px) {
 
-
+   
 
     .profile_greet h1{
         display:inline-block;
-        font-size:40px;
+        font-size:32px;
         margin:20px 0px;
         padding:0px 0px 10px 0px;
         
         box-shadow: 0px 4px 2px -2px rgba(255, 255, 255, 0.8);
     }
+
 
     
     .profile_wrapper{
@@ -164,11 +174,7 @@
         width:90%;
         margin:auto 0;
     }
-    .profile_introduction{
-        font-size: 25px;
-        line-height:35px;
-        text-align: left;
-    }
+
 
     .profile_greet{
         width:auto;
@@ -181,8 +187,11 @@
     .profile_image_wrapper{
         width:auto;
         height:auto;
-        margin-top:100px;
+        margin-top:50px;
     }
+
+
+
 
     .profile_image_wrapper img{
         width:30%;
@@ -206,3 +215,12 @@
     }
 }
 
+
+@media only screen and (max-width: 520px) {
+.profile_introduction h3{
+    font-size: 16px;
+    line-height:24px;
+    text-align: left;
+}
+
+}

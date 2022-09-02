@@ -7,7 +7,6 @@ import classes from "./Projects.module.css"
 //UI components
 import Container from '../../UI/container/Container';
 import ProjectsUI from '../../UI/projectsUI/ProjectsUI';
-import Card from '../../UI/card/Card'
 import { useMatchMedia } from "../../useMatchMedia";
 
 function Projects() {

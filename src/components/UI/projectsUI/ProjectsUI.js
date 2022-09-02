@@ -7,6 +7,7 @@ import classes from './ProjectsUI.module.css'
 import ProjectImage1 from '../../images/project_images/project_image1.png'
 import ProjectImage2 from '../../images/project_images/project_image2.png'
 import ProjectImage3 from '../../images/project_images/project_image3.png'
+import GitHub_image from '../../images/github_icon.svg';
 
 function ProjectsUI() {
   return (
@@ -14,11 +15,15 @@ function ProjectsUI() {
         <div className={classes.projectsUI}>
             <div className={classes.project}>
 
+                {/* box1 */}
                 <div className={classes.project_image}>
                     <img src={ProjectImage1} alt="ProjectImage1" />
-                    <h5><a href="/">Repo</a></h5>
+                    <a href="/">
+                        Repo
+                    </a>
                 </div>
 
+                {/* box2 */}
                 <div className={classes.project_explanations}>
                     <div className={classes.project_explanation} >
                         <h1>Project1</h1>
@@ -42,7 +47,9 @@ function ProjectsUI() {
 
                 <div className={classes.project_image}>
                     <img src={ProjectImage2} alt="ProjectImage2" />
-                    <h5><a href="/">Repo</a></h5>
+                    <a href="/">
+                        Repo
+                    </a>
                 </div>
 
                 <div className={classes.project_explanations}>
@@ -68,7 +75,9 @@ function ProjectsUI() {
 
                 <div className={classes.project_image}>
                     <img src={ProjectImage3} alt="ProjectImage3" />
-                    <h5><a href="/">Repo</a></h5>
+                    <a href="/">
+                        Repo
+                    </a>
                 </div>
 
                 <div className={classes.project_explanations}>
