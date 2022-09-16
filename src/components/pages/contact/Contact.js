@@ -23,36 +23,56 @@ function Contact() {
                     <form className={classes.form}>
 
                         <div className={classes.name_email}>
-                            <input type="text"  placeholder='Your Name*'/>
-                            <input type="text"  placeholder='Your Email*'/>
+                            <div className={classes.name}>
+                                <label for="name">Name:</label>
+                                <input type="text" placeholder='e.g. John Doe'/>
+                            </div>
+                            <div className={classes.email}>
+                                <label for="email">Email:</label>
+                                <input type="text" placeholder='e.g. johnDoe@example.com'/>
+                            </div>
+                            
                         </div>
 
                         <div className={classes.subj_message}>
-                            <input type="text"  placeholder='Subject*'/>
-                            <textarea type="text"  placeholder='Your message*'/>
+                            <label for="subject">Subject:</label>
+                            <input type="text"  />
+                            <label for="message">Message:</label>
+                            <textarea type="text"  />
                         </div>
-                        
+
                         <div className={classes.submit_button}>
                             <input type="submit" value="Send" />
                         </div>
-                        
-                    </form>
+
+                        </form>
                 </Container>
         :  <Container className={classes.form_container}>
-                <form className={classes.form}>
+               <form className={classes.form}>
+
                     <div className={classes.name_email}>
-                        <input type="text"  placeholder='Your Name*'/>
-                        <input type="text"  placeholder='Your Email*'/>
+                        <div className={classes.name}>
+                            <label for="name">Name:</label>
+                            <input type="text" placeholder='e.g. John Doe'/>
+                        </div>
+                        <div className={classes.email}>
+                            <label for="email">Email:</label>
+                            <input type="text" placeholder='e.g. johnDoe@example.com'/>
+                        </div>
+                        
                     </div>
 
                     <div className={classes.subj_message}>
-                        <input type="text"  placeholder='Subject*'/>
-                        <textarea type="text"  placeholder='Your message*'/>
+                        <label for="subject">Subject:</label>
+                        <input type="text"  />
+                        <label for="message">Message:</label>
+                        <textarea type="text"  />
                     </div>
-                    
+
                     <div className={classes.submit_button}>
                         <input type="submit" value="Send" />
                     </div>
+
                 </form>
             </Container>
     }

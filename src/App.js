@@ -18,8 +18,8 @@ function App() {
   return (
     <div>
       <Home />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
     </div> 

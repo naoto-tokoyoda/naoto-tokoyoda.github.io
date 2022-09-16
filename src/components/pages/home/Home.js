@@ -36,7 +36,7 @@ function Home() {
             <div className={classes.social_media_icons_box}>
               <a href="https://www.linkedin.com/in/naoto-tokoyoda-194769a5/" target="_blank" className={classes.social_media_icon}>
                 <Button className={classes.icon_linkedIn_wrapper}>
-                  <img src={LinkedIn_image} alt="linkedIn" className={classes.icon_linkedIn_wrapper}/>
+                  <img src={LinkedIn_image} alt="linkedIn" className={classes.icon_linkedIn}/>
                 </Button>
               </a>
               <a href="https://github.com/naoto-tokoyoda" target="_blank" className={classes.social_media_icon}>

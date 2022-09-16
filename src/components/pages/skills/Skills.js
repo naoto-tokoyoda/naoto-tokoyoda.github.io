@@ -1,6 +1,5 @@
 
 import Container from "../../UI/container/Container";
-import Card from '../../UI/card/Card';
 
 import classes from "../skills/Skills.module.css"
 import HTML from "../../images/skill_icons/HTML_icon.png";
