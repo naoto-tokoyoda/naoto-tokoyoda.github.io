@@ -6,7 +6,7 @@ import Profile_image from '../../images/profile_image.jpg';
 import Angle_down from '../../images/angle_down.png';
 import LinkedIn_image from '../../images/linkedin_icon.png';
 import GitHub_image from '../../images/github_icon.svg';
-import Resume from '../../pdfs/resume.pdf';
+// import Resume from '../../pdfs/resume.pdf';
 
 import classes from './Home.module.css';
 
@@ -28,7 +28,7 @@ function Home() {
           <div className={classes.icons_wrapper}>
 
             <div className={classes.resume_box}>
-              <a href={Resume} target="_blank">
+              <a href='https://docs.google.com/document/d/1YjSpSvjTmtGiEEvdPORkLeqSi20bGKq5/edit?usp=sharing&ouid=108976175631058019881&rtpof=true&sd=true' target="_blank">
                 <Button className={classes.icon_resume}>Resume</Button>
               </a>
             </div>
